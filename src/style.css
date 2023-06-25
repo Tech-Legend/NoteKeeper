@@ -1,0 +1,73 @@
+.NoteKeepcontainer{
+    border: 2px solid black;
+    height: 140px;
+    text-align: center;
+}
+.body{
+    background-color: black;
+    color: white;
+}
+.NoteKeeplogo{
+    margin-top: 34px;
+    font-size: 45px;
+}
+.home-container{
+    display: flex;
+    
+    justify-content: center;
+}
+.box1,.box2{
+   border: none;
+
+}
+.home-button{
+    width: 200px;
+    height: 60px;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+transition: 0.3s;
+}
+.home-button:hover{
+    background-color: grey;
+}
+.textfield-style{
+margin-top: 35px;
+    width: 330px;
+    height: 27px;
+    margin-left: 23px;
+
+}
+.textfield-style:nth-child(2){
+    margin-left: 48px;
+}
+.form-container{
+    text-align: center;
+}
+.submit-button{
+    width: 180px;
+    height: 50px;
+font-size: 23px;
+cursor: pointer;
+transition: 0.5s;
+border: none;
+}
+.submit-button:hover{
+    background-color: grey;
+}
+.notes-pages{
+    margin-top: 5px;
+    margin-left: 34px;
+border: 1px solid grey;
+border-radius: 12px;
+width: 95%;
+}
+.title{
+    font-size: 30px;
+    margin-left: 23px;
+}
+.content{
+margin-left: 23px;
+}
